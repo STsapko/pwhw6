@@ -1,0 +1,11 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "sqlite_salary_db_connection",
+            "database": "${workspaceFolder:pw6}/salary.sql"
+        }
+    ]
+}
